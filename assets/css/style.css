@@ -16,30 +16,6 @@ textos menores: Alata
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Josefin Sans', sans-serif;
-}
-header{
-    position: absolute;
-    top: 0;
-    background: url('../images/desktop/image-hero.jpg') no-repeat center center;
-    background-size: cover;
-    height: 200px;
-    color: #fff;
-}
-header .row{
-    margin-top: 50px;
-}
-header .col + .navlist{
     font-family: 'Alata', sans-serif;
-    font-weight: 400;
-    font-size: 15px;
-}
-.navlist ul{
-    list-style: none;
-    display: flex;
-
-    justify-content: space-evenly;
-}
-.border{
-    border: 1px solid #000;
+    font-family: 'Josefin Sans', sans-serif;
 }
