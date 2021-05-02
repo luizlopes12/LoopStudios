@@ -47,6 +47,7 @@ header .navbar{
     display: flex;
     justify-content: right;
     width: 100%;
+    line-height: 41px;
 }
 .navbar nav{
     min-width: 100%;
@@ -68,4 +69,14 @@ header .navbar{
 .navbar li:hover{
     
     border-bottom: 2px solid #fff;
+}
+
+
+@media(max-width: 800px){
+    header{
+        background: url('../images/mobile/image-hero.jpg') no-repeat center center;
+        background-size: cover;
+        color: #fff;
+        height: 657px;
+    }
 }
