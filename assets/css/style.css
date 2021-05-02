@@ -24,10 +24,10 @@ textos menores: Alata
     font-family: 'Josefin Sans', sans-serif;
 }
 header{
-    background: url('../images/desktop/image-hero.jpg') no-repeat center fixed;
+    background: url('../images/desktop/image-hero.jpg') no-repeat center center;
     background-size: cover;
     color: #fff;
-    height: 500px;
+    height: 657px;
 }
 header .logo{
     display: flex;
@@ -39,7 +39,9 @@ header .navbar{
     font-size: 15px;
 
 }
-
+.bdr{
+    border: 1px solid #000;
+}
 .navbar ul{
     list-style: none;
     display: flex;
