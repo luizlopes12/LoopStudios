@@ -61,11 +61,10 @@ header .navbar{
     color: #fff;
 }
 .navbar li{
-    padding: 2% 0;
+    padding: 1% 0;
     margin: 4% auto;
     border-bottom: 2px solid rgba(255, 255, 255, 0);
     transition: all .1s ease-in;
-    
 }
 .navbar li:hover{
     border-bottom: 2px solid #fff;
@@ -81,5 +80,11 @@ header .navbar{
     }
     .logo img{
         width: 80%;
+    }
+    .navbar ul{
+        background: url('../images/icon-hamburger.svg') no-repeat;
+        margin-bottom: 0;
+        text-indent: -9999px;
+        background-position: center right;
     }
 }
