@@ -87,4 +87,31 @@ header .navbar{
         text-indent: -9999px;
         background-position: center right;
     }
+    
+    #btn-menu{
+        background: url('../images/icon-close.svg') no-repeat;
+        background-position: top 7% right 3%;;
+        position: absolute;
+        padding: 20px;
+        top: 0;
+        right: 0;
+        height: 100vh;
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        text-indent: 1px;
+        background-color: #000;
+        
+    }
+    #btn-menu :first-child{
+        margin-top: 80px;
+    }
+    .menu-open{
+        transform: translateX(0);
+        transition: all .2s linear;
+    }*/
+    .menu-close li
+    .menu-close li{
+        transform: translateX(100%);
+    }
 }

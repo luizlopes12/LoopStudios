@@ -1,4 +1,4 @@
-const menu = document.querySelector('#btn-menu');
-menu.addEventListener('click', function(){
-    console.log('tudo derto')
-})
+function abrir(){
+    var menuOpen = document.querySelector('#menu')
+    menuOpen.addEventListener('click', menuOpen.)
+}
