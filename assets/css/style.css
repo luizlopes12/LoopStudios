@@ -81,6 +81,9 @@ header .navbar{
     .logo img{
         width: 80%;
     }
+    .navbar{
+        z-index: 9999;
+    }
     .navbar ul{
         background: url('../images/icon-hamburger.svg') no-repeat;
         margin-bottom: 0;
