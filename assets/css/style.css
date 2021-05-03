@@ -92,8 +92,8 @@ header .navbar{
     }
     
     #btn-menu{
-        background-image: none;
-        background-position: top 7% right 3%;
+        background: url('../images/icon-close.svg') no-repeat;
+        background-position: top 7% right 3%;;
         position: absolute;
         padding: 20px;
         top: 0;
@@ -105,19 +105,15 @@ header .navbar{
         text-indent: 1px;
         background-color: #000;   
     }
+    #btn-menu :first-child{
+        margin-top: 80px;
+    }
     .menu-open{
         transform: translateX(0);
         transition: all .2s linear;
     }
-    .menu-open li
-    .menu-open ul{
+    .menu-close li
+    .menu-close ul{
         transform: translateX(100%);
-    }
-    .menu-close{
-        position: relative;
-        display: flex;
-        right: 0;
-        text-align: right;
-        
     }
 }
