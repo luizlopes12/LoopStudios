@@ -100,8 +100,7 @@ header .navbar{
         display: flex;
         flex-direction: column;
         text-indent: 1px;
-        background-color: #000;
-        
+        background-color: #000;   
     }
     #btn-menu :first-child{
         margin-top: 80px;
@@ -109,9 +108,9 @@ header .navbar{
     .menu-open{
         transform: translateX(0);
         transition: all .2s linear;
-    }*/
+    }
     .menu-close li
-    .menu-close li{
+    .menu-close ul{
         transform: translateX(100%);
     }
 }
