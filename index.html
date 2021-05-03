@@ -20,13 +20,17 @@ rel="stylesheet">
     <header class="container-sm-fluid">
         <div class="container">
             <div class="row">
-                <div class="col-8 col-sm-6 logo">
+                <div class="col-10 col-sm-6 logo">
                     <a href=""><img src="assets/images/logo.svg" alt="logo"></a>
                 </div>
-                <div class="col-4 col-sm-6 navbar font-alata" onclick="fechar()">
-                    <nav>
+                <div class="col-2 col-sm-6 navbar font-alata"  onclick="abrir()">
+                    <nav   id=""  >
                         
-                        <ul onclick="abrir()"  id="" class="menu-open">
+                        <ul class="menu-open" style="background-color: blue;">
+                            <a href="" class="menu-close" onclick="fechar()" style="background-color: black;"">
+                                <img src="assets/images/icon-close.svg" alt="logo">
+                            
+                            </a>
                             <li><a href=""> About </a></li>
                             <li><a href=""> Careers </a></li>
                             <li><a href=""> Events </a></li>
