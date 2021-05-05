@@ -74,11 +74,12 @@ header .navbar {
 }
 .texto-header{
   margin-top: 100px;
-  padding: 5%;
-  font-
-  font-weight: 400;
+  padding: 1% 5%;
+  font-size: 3.5em;
+  font-weight: 100;
   border: 1px solid #fff;
 }
+
 
 
 
@@ -140,5 +141,12 @@ header .navbar {
     position: relative;
     margin-top: 5%;
     margin-left: 95%;
+  }
+  .texto-header{
+    margin-top: 100px;
+    padding: 1% 5%;
+    font-size: 2.2em;
+    font-weight: 100;
+    border: 1px solid #fff;
   }
 }
