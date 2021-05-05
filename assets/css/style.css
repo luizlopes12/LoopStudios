@@ -72,6 +72,17 @@ header .navbar {
 .menu-header {
   display: none;
 }
+.texto-header{
+  margin-top: 100px;
+  padding: 5%;
+  font-
+  font-weight: 400;
+  border: 1px solid #fff;
+}
+
+
+
+
 @media (max-width: 800px) {
   header {
     background: url("../images/mobile/image-hero.jpg") no-repeat center center;
