@@ -89,7 +89,9 @@ header .navbar {
 }
 .desc-text{
   position: relative;
-  top: ;
+  height: min-content;
+  top: 40px;
+  right: 10%;
   background-color: #ffffff;
 }
 .desc-text h3{
