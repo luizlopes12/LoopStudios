@@ -80,7 +80,9 @@ header .navbar {
   border: 1.5px solid #fff;
 }
 
-
+.desc{
+  height: 100vh;
+}
 
 
 
