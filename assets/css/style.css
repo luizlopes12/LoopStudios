@@ -90,15 +90,17 @@ header .navbar {
 .desc-text{
   position: relative;
   height: min-content;
-  top: 40px;
-  right: 10%;
+  top: 300px;
+  right: 180px;
   background-color: #ffffff;
 }
 .desc-text h3{
   font-size: 3em;
   font-weight: 100;
+  padding: 50px 0 0 50px;
 }
 .desc-text p{
+  padding: 0 0 50px 50px;
   font-size: 1em;
   color: #8c8c8c;
 }
