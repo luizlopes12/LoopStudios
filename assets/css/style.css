@@ -83,8 +83,13 @@ header .navbar {
 .desc{
   height: 100vh;
 }
-
-
+.desc-image{
+  margin: 15% 0;
+  width: 100%;
+}
+.desc-text{
+  
+}
 
 @media (max-width: 800px) {
   header {
