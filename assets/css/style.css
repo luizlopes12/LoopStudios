@@ -131,9 +131,7 @@ header .navbar {
   background-color: #000;
   border: 3px solid #000000;
 }
-.itens-images{
-  background-color: #000;
-}
+
 @media (max-width: 800px) {
   header {
     background: url("../images/mobile/image-hero.jpg") no-repeat center center;
@@ -214,7 +212,7 @@ header .navbar {
     background-color: #ffffff;
   }
   .desc-text h3{
-    font-size: 2.2em;
+    font-size: 2em;
     
     font-weight: 100;
     padding: 10px 0 0 0;
@@ -224,4 +222,23 @@ header .navbar {
     font-size: .91em;
     color: #8c8c8c;
   }
+  
+.itens{
+  display: block;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.itens-title{
+  font-size: 2em;
+  text-align: center;
+}
+.itens-button{
+  font-size: 1em;
+}
+.itens-button:hover{
+  color: #fff;
+  background-color: #000;
+  border: 3px solid #000000;
+}
 }
