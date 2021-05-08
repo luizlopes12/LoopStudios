@@ -253,6 +253,7 @@ padding: 24px;
 .itens{
   display: block;
   align-items: center;
+  height: 100px;
   justify-content: space-between;
 }
 
@@ -296,8 +297,16 @@ padding: 24px;
 }
 .itens-button{
   position: relative;
-  bottom: -1150px;
   left: 25%;
 }
 
+}
+@media(max-width: 1400px){
+  .banner-image{
+    width: 97%;
+  }
+  .banners p{
+    font-size: 1.5em;
+    margin: 360px 0 0 40px ;
+  }
 }
