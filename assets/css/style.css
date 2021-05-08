@@ -274,7 +274,30 @@ padding: 24px;
 .banners-mobile{
   display: initial;
 }
-
-
+.banner-image{
+  filter: brightness(0.6);
+  margin-bottom: 20px;
+}
+.banners-mobile p{
+  z-index: 1;
+  color: #ffffff;
+  position: absolute;
+  font-weight: 200;
+  width: 160px;
+  font-size: 1.2em;
+  margin: 50px 0 0 20px ;
+}
+.banners-mobile:hover img{
+  filter: opacity(30%); 
+  color: #000000;
+}
+.banners-mobile:hover p{
+  color: #000000;
+}
+.itens-button{
+  position: relative;
+  bottom: -1150px;
+  left: 25%;
+}
 
 }
