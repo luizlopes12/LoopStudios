@@ -131,6 +131,9 @@ header .navbar {
   background-color: #000;
   border: 3px solid #000000;
 }
+.banners-mobile{
+  display: none;
+}
 .banners{
 padding: 24px;
 }
@@ -265,4 +268,13 @@ padding: 24px;
   background-color: #000;
   border: 3px solid #000000;
 }
+.banners{
+  display: none;
+}
+.banners-mobile{
+  display: initial;
+}
+
+
+
 }
