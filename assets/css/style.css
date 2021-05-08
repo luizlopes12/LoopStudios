@@ -372,6 +372,19 @@ footer{
 .footer-socials img{
   margin: 15px 15px 0 15px;
 }
+.footer-navbar ul{
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+}
+.footer-copy{
+  display: flex;
+  justify-content: center;
+}
+.footer-copy p{
+font-size: .8em;
+margin: 10px;
+}
 }
 @media(max-width: 1400px){
   .banner-image{
