@@ -38,9 +38,6 @@ header .navbar {
   font-size: 400;
   font-size: 15px;
 }
-.bdr {
-  border: 1px solid #000;
-}
 .navbar ul {
   list-style: none;
   display: flex;
@@ -145,7 +142,7 @@ padding: 24px;
   color: #ffffff;
   position: absolute;
   font-weight: 200;
-  width: 160px;
+  width: 180px;
   font-size: 2.5em;
   margin: 390px 0 0 40px ;
 }
@@ -156,6 +153,62 @@ padding: 24px;
 .banners:hover p{
   color: #000000;
 }
+footer{
+  display: flex;
+  justify-content: space-between;
+  background-color: #000;
+  padding-top: 50px;
+}
+.footer-logo img{
+  width: 30%;
+}
+.footer-socials{
+  display: flex;
+  flex-direction: row-reverse;
+}
+.footer-socials img{
+  margin-left: 20px;
+}
+.footer-navbar ul {
+  list-style: none;
+  display: flex;
+  justify-content: left;
+  width: 100%;
+  line-height: 41px;
+}
+.footer-navbar nav {
+  min-width: 100%;
+  max-width: 100%;
+}
+.footer-navbar a {
+  text-decoration: none;
+  color: #fff;
+}
+.footer-navbar a:hover {
+  color: #fff;
+}
+.footer-nav{
+  padding: 0;
+  margin: 0;
+}
+.footer-navbar li {
+  margin: 4% 4% 4% 0;
+  border-bottom: 2px solid rgba(255, 255, 255, 0);
+  transition: all 0.1s ease-in;
+}
+.footer-navbar li:hover {
+  border-bottom: 2px solid #fff;
+}
+.footer-copy {
+  display: flex;
+  flex-direction: row-reverse;
+}
+.footer-copy p{
+  margin-top: 30px;
+  color: #8c8c8c;
+  font-size: 1.2em;
+}
+
 @media (max-width: 800px) {
   header {
     background: url("../images/mobile/image-hero.jpg") no-repeat center center;
@@ -299,7 +352,18 @@ padding: 24px;
   position: relative;
   left: 25%;
 }
-
+footer{
+  display: flex;
+  flex-direction: column;
+  background-color: #000;
+  padding-top: 50px;
+}
+.footer-logo {
+  display: flex;
+}
+.footer-logo img{
+  width: 60%;
+}
 }
 @media(max-width: 1400px){
   .banner-image{
