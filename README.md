@@ -1,6 +1,7 @@
 # LoopStudios
  Desafio de landing page proposto no site [frontendmentor](https://www.frontendmentor.io/challenges/loopstudios-landing-page-N88J5Onjw).
  
+- [x] (for checked checkbox)
  [Link](https://luizlopes12.github.io/LoopStudios/)
  ### Mobile
 ![imagem mobile](https://github.com/luizlopes12/LoopStudios/blob/main/Screenshot_1.png)
